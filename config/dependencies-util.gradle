@@ -1,0 +1,103 @@
+ext.addTestDependencies = {
+    testImplementation Deps.archCoreTest
+    testImplementation Deps.androidxJunit
+    testImplementation Deps.androidxTruth
+    testImplementation Deps.testRunner
+    testImplementation Deps.turbine
+    testImplementation Deps.junit
+    testImplementation Deps.mockwebserver
+    testImplementation Deps.coroutinesTest
+    testImplementation Deps.mockk
+    testImplementation Deps.byteBuddyAndroid
+    debugImplementation Deps.androidTest
+    androidTestImplementation Deps.junit
+    androidTestImplementation Deps.mockk_android
+    androidTestImplementation Deps.byteBuddyAndroid
+    androidTestImplementation Deps.koin_test
+    androidTestImplementation Deps.espresso
+    androidTestImplementation Deps.espressoContrib
+    androidTestImplementation Deps.espressoIntents
+    androidTestImplementation Deps.espressoIdling
+}
+
+ext.addDependencyInject = {
+    implementation Deps.koin_android
+    implementation Deps.koin_core
+    implementation Deps.koin_viewmodel
+    implementation Deps.koin_scope
+}
+
+ext.addNavigation = {
+    implementation Deps.navigationFragment
+    implementation Deps.navigationUi
+    implementation Deps.navigationRuntime
+    testImplementation Deps.navigationTesting
+    androidTestImplementation Deps.navigationTesting
+}
+
+ext.addCommonBase = {
+    implementation Deps.kotlinReflect
+    implementation Deps.kotlin_ktx
+    implementation Deps.support_app_compat
+    implementation Deps.support_constraint_layout
+    implementation Deps.support_material
+    implementation Deps.fragment_androidx
+    implementation Deps.hawk
+    implementation Deps.coroutines_core
+    implementation Deps.coroutines_android
+    implementation Deps.startup
+    implementation Deps.glide
+    implementation Deps.glide_annotation
+    implementation Deps.lifecycle_runtime
+}
+
+ext.addCommon = {
+    implementation project(LocalLibs.common)
+    implementation Deps.kotlinReflect
+    implementation Deps.kotlin_ktx
+    implementation Deps.support_app_compat
+    implementation Deps.support_constraint_layout
+    implementation Deps.support_material
+    implementation Deps.fragment_androidx
+    implementation Deps.hawk
+    implementation Deps.coroutines_core
+    implementation Deps.coroutines_android
+    implementation Deps.rxJava2
+    implementation Deps.rxJava2Android
+    implementation Deps.startup
+    implementation Deps.glide
+    implementation Deps.glide_annotation
+    implementation Deps.lifecycle_runtime
+}
+
+ext.addJetpackCompose = {
+    implementation Deps.composeUI
+    implementation Deps.composeUiTooling
+    implementation Deps.composeMaterial
+    implementation Deps.composeActivity
+    implementation Deps.composeRuntime
+    implementation Deps.foundation
+    implementation Deps.composeCoil
+    implementation Deps.composeAccompanistPlaceholder
+    implementation Deps.constraintLayoutCompose
+}
+
+ext.addNetwork = {
+    implementation Deps.retrofit_runtime
+    implementation Deps.retrofit_gson
+    implementation Deps.retrofit_coroutines
+    implementation Deps.retrofitRxJava2Adapter
+    implementation Deps.okhttp_logging_interceptor
+}
+
+ext.addRoom = {
+    implementation Deps.roomRuntime
+    implementation Deps.roomKtx
+    kapt Deps.roomCompiler
+}
+
+ext.addFirebase = {
+    implementation Deps.firebaseCore
+    implementation Deps.firebaseAuth
+    implementation Deps.firebaseCoroutines
+}

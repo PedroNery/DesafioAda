@@ -1,0 +1,15 @@
+apply from: "$rootDir/config/android-settings.gradle"
+
+android {
+    buildFeatures {
+        compose true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion Versions.compose
+    }
+}
+
+dependencies {
+    with addJetpackCompose
+}

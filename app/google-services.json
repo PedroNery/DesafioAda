@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "142672199393",
+    "project_id": "desafioada",
+    "storage_bucket": "desafioada.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142672199393:android:08e0de333a2573e44301a0",
+        "android_client_info": {
+          "package_name": "com.projeto.desafioada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142672199393-q4qs271u76aha6c2j1b0446ohl090od1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.projeto.desafioada",
+            "certificate_hash": "e4adfbe1715f1d5df569296be2bc9be4c51b4f39"
+          }
+        },
+        {
+          "client_id": "142672199393-0jrgtahc0an8cpnm5u0mmeev0u8601pm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe3zFnC5u80GJxthUIOj_fNoxnE2HPEdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142672199393-0jrgtahc0an8cpnm5u0mmeev0u8601pm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

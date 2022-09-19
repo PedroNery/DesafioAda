@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_01">4dp</dimen>
+
+    <dimen name="error_screen_button_height">78dp</dimen>
+    <dimen name="error_button_horizontal_padding">32dp</dimen>
+    <dimen name="error_button_top_padding">24dp</dimen>
+    <dimen name="margin_receipt_divider_top">28dp</dimen>
+</resources>

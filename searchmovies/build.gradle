@@ -1,0 +1,25 @@
+apply plugin: 'com.android.library'
+apply from: "$rootDir/config/android-settings.gradle"
+
+def keystorePropertiesFile = rootProject.file("searchmovies/keystore.properties")
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+android {
+    defaultConfig {
+        buildConfigField "String", "baseUrl", '"https://www.omdbapi.com/"'
+        buildConfigField "String", "token", keystoreProperties["AUTHORIZATION_TOKEN"]
+    }
+}
+
+dependencies {
+    implementation project(LocalLibs.navigation)
+    implementation project(LocalLibs.designSystem)
+    implementation project(LocalLibs.test)
+    with addRoom
+    with addNetwork
+    with addCommon
+    with addNavigation
+    with addDependencyInject
+    with addTestDependencies
+}

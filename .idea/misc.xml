@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/app/src/main/res/layout/activity_choose_feature.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/designsystem/src/main/res/drawable/button_background.xml" value="0.1655" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/designsystem/src/main/res/drawable/gradient_background.xml" value="0.161" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/designsystem/src/main/res/drawable/ic_error_default.xml" value="0.161" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/designsystem/src/main/res/drawable/ic_music.xml" value="0.125" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/designsystem/src/main/res/layout/spetacle_card.xml" value="0.4" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/designsystem/src/main/res/layout/spetacle_edit_text.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/searchmovies/src/main/res/drawable/movie_item_background.xml" value="0.2295" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/searchmovies/src/main/res/drawable/movie_placeholder.xml" value="0.1655" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/searchmovies/src/main/res/drawable/search_movie_first_item.xml" value="0.1655" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/searchmovies/src/main/res/drawable/search_movie_item_background.xml" value="0.1655" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/searchmovies/src/main/res/layout/activity_movie.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/searchmovies/src/main/res/layout/activity_search_movies.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/searchmovies/src/main/res/layout/fragment_my_movies.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/searchmovies/src/main/res/layout/fragment_saved_movies.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/searchmovies/src/main/res/layout/fragment_search_movies.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/searchmovies/src/main/res/layout/movie_item_list.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/searchmovies/src/main/res/layout/search_movie_item_list.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/searchmusics/src/main/res/layout/activity_music.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/searchmusics/src/main/res/layout/fragment_saved_musics.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Mylenna/Projetos/DesafioAda/searchmusics/src/main/res/layout/fragment_search_musics.xml" value="0.22826086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

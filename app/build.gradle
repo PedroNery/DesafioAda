@@ -1,0 +1,20 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply from: "$rootDir/config/android-settings.gradle"
+
+android {
+    defaultConfig {
+        applicationId Config.applicationId
+        testInstrumentationRunner Config.genericRunner
+    }
+}
+
+dependencies {
+    implementation project(LocalLibs.navigation)
+    implementation project(LocalLibs.designSystem)
+    implementation project(LocalLibs.movie)
+    with addFirebase
+    with addCommon
+    with addDependencyInject
+    with addTestDependencies
+}

@@ -1,0 +1,8 @@
+rootProject.name = "DesafioAda"
+include ':app'
+include ':common'
+include ':navigation'
+include ':designsystem'
+include ':searchmovies'
+include ':searchmusics'
+include ':test'
